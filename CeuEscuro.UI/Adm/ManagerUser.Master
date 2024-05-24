@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ManagerUser.master.cs" Inherits="CeuEscuro.UI.Adm.ManagerUser" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../resource/Style.css" rel="stylesheet" />
+    <title>CeuEscuro</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        <div> 
+            <nav>
+
+                <ul  class="menuInner">
+                  
+                    <li><img src="../img/globo"/></li>
+                    <li><a href="User.aspx">User</a></li>
+                    <li><spa>copyringht &
+                        </spa></li>
+
+                    <li><a href="Filme.aspx">Filme</a></li>
+                    <li><a href="Login.aspx">Login</a></li>
+
+
+
+                </ul>
+            </nav>
+        </div>
+    <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    </form>
+   <div class="footer">
+       <footer><ul class="footerInner">
+           <li>Copyringth &copy all ringths reserved 2024
+
+           </li>
+
+               </ul></footer>
+   </div>
+</body>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+
+</html>
